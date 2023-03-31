@@ -1,0 +1,50 @@
+*{
+  font-family: 'Orbitron', sans-serif;  
+}
+.container {
+    
+    width: 1000px;
+    height: 800px;
+    margin: 100px auto;
+}
+
+.scoreboard {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width:700px;
+    height: 350px;
+     background-color:#0377BF ;
+     margin: 150px auto;
+     text-align: center;
+     border:5px solid black;
+     border-radius: 15px;
+      
+
+     
+     
+}
+
+.score {
+    display: flex;
+    width: 150px;
+    height: 100px;
+    background-color: black;
+    margin-top: 45px;
+    margin-bottom: 15px;
+    color: white;
+    font-size: 24px;
+    justify-content: center;
+    border-radius: 5px;;
+}
+
+.btn {
+    background:none;
+    border: 1px solid rgb(8, 7, 7);
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    margin:0 5px;
+    padding: 5px 10px; 
+
+}
